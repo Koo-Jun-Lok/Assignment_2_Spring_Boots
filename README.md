@@ -3,7 +3,6 @@
 These commands demonstrate how to perform **Create, Read, Update, and Delete (CRUD)** operations for all main entities using **PowerShell** and a **Spring Boot RESTful API**.
 
 > **Base URL:** `http://localhost:8080`  
-> Ensure the backend server is running and CORS/PUT mappings are enabled.
 
 ```powershell
 # ----------------------
