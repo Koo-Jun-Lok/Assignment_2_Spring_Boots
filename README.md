@@ -10,10 +10,11 @@ Perform **Create, Read, Update, and Delete (CRUD)** operations on main entities 
 ---
 
 ## Option 1: Postman Commands
+ 
 
 | Entity    | Operation      | Method  | Endpoint           | Example: Body (raw JSON)                                                                                         |
 |-----------|----------------|---------|--------------------|-------------------------------------------------------------------------------------------------------|
-| 🧑‍💼 User | Create         | POST    | `/users`           | `{ "username": "admin_ameen", "password": "adminpass", "email": "admin@ameen.com", "role": { "id": 1 } }` |
+| 🧑‍💼 User | Create         | POST    | `/users                                 `example: http://localhost:8080/users           | `{ "username": "admin_ameen", "password": "adminpass", "email": "admin@ameen.com", "role": { "id": 1 } }` |
 |           | Read All       | GET     | `/users`           | -                                                                                                     |
 |           | Read by ID     | GET     | `/users/1`         | -                                                                                                     |
 |           | Update         | PUT     | `/users/1`         | `{ "id": 1, "username": "admin_updated", "password": "adminpass", "email": "updated@ameen.com", "role": { "id": 1 } }` |
