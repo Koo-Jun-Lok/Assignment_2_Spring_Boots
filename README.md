@@ -1,7 +1,8 @@
 ## 🔧 Full CRUD Commands (PowerShell)
 
-These commands demonstrate how to perform **Create, Read, Update, and Delete (CRUD)** operations for all main entities using **PowerShell** and a **Spring Boot RESTful API**.
+These commands demonstrate how to perform **Create, Read, Update, and Delete (CRUD)
 
+Open the Terminal tab in IntelliJ IDEA, and type the commands
 > **Base URL:** `http://localhost:8080`  
 
 ```powershell
