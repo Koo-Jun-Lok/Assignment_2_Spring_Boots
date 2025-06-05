@@ -3,7 +3,7 @@
 Perform **Create, Read, Update, and Delete (CRUD)** operations on main entities using:
 
 - **Option 1: Postman (GUI)**
-- **Option 2: Terminal (PowerShell curl commands)**
+- **Option 2: Terminal (IntelliJ IDEA)**
 
 **Base URL:** `http://localhost:8080`
 
