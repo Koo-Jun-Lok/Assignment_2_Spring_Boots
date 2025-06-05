@@ -11,7 +11,7 @@ Perform **Create, Read, Update, and Delete (CRUD)** operations on main entities 
 
 ## Option 1: Postman Commands
 
-| Entity    | Operation      | Method  | Endpoint           | Body (raw JSON)                                                                                         |
+| Entity    | Operation      | Method  | Endpoint           | Example: Body (raw JSON)                                                                                         |
 |-----------|----------------|---------|--------------------|-------------------------------------------------------------------------------------------------------|
 | 🧑‍💼 User | Create         | POST    | `/users`           | `{ "username": "admin_ameen", "password": "adminpass", "email": "admin@ameen.com", "role": { "id": 1 } }` |
 |           | Read All       | GET     | `/users`           | -                                                                                                     |
@@ -19,7 +19,7 @@ Perform **Create, Read, Update, and Delete (CRUD)** operations on main entities 
 |           | Update         | PUT     | `/users/1`         | `{ "id": 1, "username": "admin_updated", "password": "adminpass", "email": "updated@ameen.com", "role": { "id": 1 } }` |
 |           | Delete         | DELETE  | `/users/1`         | -                                                                                                     |
 
-| Entity    | Operation      | Method  | Endpoint           | Body (raw JSON)                 |
+| Entity    | Operation      | Method  | Endpoint           | Example: Body (raw JSON)                 |
 |-----------|----------------|---------|--------------------|--------------------------------|
 | 🛡️ Role  | Create         | POST    | `/roles`           | `{ "name": "Admin" }`           |
 |           | Read All       | GET     | `/roles`           | -                              |
@@ -27,7 +27,7 @@ Perform **Create, Read, Update, and Delete (CRUD)** operations on main entities 
 |           | Update         | PUT     | `/roles/1`         | `{ "id": 1, "name": "SuperAdmin" }` |
 |           | Delete         | DELETE  | `/roles/1`         | -                              |
 
-| Entity    | Operation      | Method  | Endpoint           | Body (raw JSON)                                                                                   |
+| Entity    | Operation      | Method  | Endpoint           | Example: Body (raw JSON)                                                                                   |
 |-----------|----------------|---------|--------------------|--------------------------------------------------------------------------------------------------|
 | 📦 Product| Create         | POST    | `/products`        | `{ "name": "Ameen Kopi 3-in-1", "price": 12.50, "category": { "id": 1 } }`                        |
 |           | Read All       | GET     | `/products`        | -                                                                                                |
@@ -35,7 +35,7 @@ Perform **Create, Read, Update, and Delete (CRUD)** operations on main entities 
 |           | Update         | PUT     | `/products/1`      | `{ "id": 1, "name": "Ameen Kopi Premium", "price": 13.00, "category": { "id": 1 } }`              |
 |           | Delete         | DELETE  | `/products/1`      | -                                                                                                |
 
-| Entity    | Operation      | Method  | Endpoint           | Body (raw JSON)                  |
+| Entity    | Operation      | Method  | Endpoint           | Example: Body (raw JSON)                  |
 |-----------|----------------|---------|--------------------|---------------------------------|
 | 🗂️ Category| Create        | POST    | `/categories`      | `{ "name": "Minuman Botol" }`   |
 |           | Read All       | GET     | `/categories`      | -                               |
@@ -50,6 +50,8 @@ Perform **Create, Read, Update, and Delete (CRUD)** operations on main entities 
 Open your terminal (e.g., IntelliJ Terminal or Windows PowerShell) and run these commands:
 
 ```powershell
+
+Example: 
 # ----------------------
 # 🧑‍💼 User
 # ----------------------
