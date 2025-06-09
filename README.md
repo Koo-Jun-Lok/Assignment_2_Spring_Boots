@@ -131,6 +131,7 @@ curl -Uri http://localhost:8080/categories/1 -Method PUT -Body '{"id":1,"name":"
 
 # Delete Category
 curl -Uri http://localhost:8080/categories/1 -Method DELETE
+```
 
 ## Run the project using docker
 1. cd path/Assignment_2_Spring_Boots
